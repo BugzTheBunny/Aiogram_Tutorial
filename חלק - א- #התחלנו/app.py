@@ -7,9 +7,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler()
 async def echo(message: types.Message):
-    print(message)  # ידפיס לכם את ההודעה איך שהיא נראית בשביל הפונקציה
-    # await message.answer("Hello!") יחזיר לנו רק hello
-    await message.answer(message.text)  # יחזיר לנו את הטקסט שאנחנו כתבנו
+    await message.answer(message.text)
 
 
 if __name__ == '__main__':
