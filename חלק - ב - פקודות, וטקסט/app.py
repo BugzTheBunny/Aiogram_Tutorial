@@ -36,7 +36,6 @@ async def handle_shalom_in_text_handler(message: types.Message):
 
 
 # --------------------- קוד מחלק א
-
 @dp.message_handler()
 async def echo(message: types.Message):
     """
