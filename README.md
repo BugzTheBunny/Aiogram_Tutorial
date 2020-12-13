@@ -16,6 +16,7 @@ Aiogram - https://docs.aiogram.dev/en/latest/index.html
 Aiogram Docs - https://docs.aiogram.dev/en/latest/
 
 Pypi - https://pypi.org/project/aiogram/
+
 `חלק א`
 
 בחלק א' לומדים על היציריה של הבוט עצמו, ותקשורת ראשונים עם הבוט
